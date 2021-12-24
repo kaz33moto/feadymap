@@ -1,86 +1,67 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
-    <title></title>
-  </head>
-  <body>
-    <header>
-      <a href="#"><h1 class="header-logo">feadymap</h1></a>
-      <ul class="header-menu">
-        <a href="#"><li class="menu-list">craft</li></a>
-        <a href="#"><li class="menu-list">about me</li></a>
-        <a href="#"><li class="menu-list">youtube</li></a>
-      </ul>
-    </header>
+@font-face {
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
 
-    <div class="main">
+body{
+  color: #333333;
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
 
-      <div class="recent-list">
-        <h1 class="recent-title">recent</h1>
-        <a href="2021:12:24.html" class="box1">
-          <img src="https://assets.st-note.com/production/uploads/images/68409963/rectangle_large_type_2_052ec14a9c5090f7531ec2b35553ee21.png?width=800" alt="">
-          <p>ちょうど良すぎる！　Helloluluのシンプルなサコッシュ Desi </p>
-        </a>
-      </div>
-      </div>
-      </div>
-    </div>
+header{
+  margin-bottom: 100px;
+}
 
-    <style media="screen">
-      .recent-title{
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 70px;
-      }
+.header-logo{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 80px;
+  margin: 30px 30px 30px 0px;
+  text-align: center;
+}
 
-      .box1{
-        transition: all 0.3s;
+.header-menu{
+  margin: 0 auto;
+  width: 400px;
+}
 
-      }
+.menu-list{
+  font-family: 'Ubuntu', sans-serif;
+  float: left;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 20px;
+  transition: all 0.3s;
+}
 
-      .box1:hover{
-        opacity: 0.8;
-      }
+.menu-list:hover{
+  opacity: 0.6
+}
 
-      .box2{
-        transition: all 0.3s;
-      }
+.main{
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
 
-      .box2:hover{
-        opacity: 0.8;
-      }
+.top-picture{
+  width: 700px;
+}
 
-      .box3{
-        transition: all 0.3s;
-      }
+#blog-title{
+  font-family: 'Sawarabi Gothic', sans-serif;
+  font-size: 30px;
+  margin: 40px 40px 40px 0px;
+}
 
-      .box3:hover{
-        opacity: 0.8;
-      }
+.text{
+  width: 100%;
+  height: 650px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
 
-      .box4{
-        transition: all 0.3s;
-      }
-
-      .box4:hover{
-        opacity: 0.8;
-      }
-
-      .recent-list img{
-        width: 700px;
-      }
-
-      .recent-list p{
-        font-size: 40px;
-      }
-    </style>
-  </body>
-</html>
+.text::-webkit-scrollbar{
+  display: none;
+}
