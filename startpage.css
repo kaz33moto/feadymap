@@ -34,7 +34,6 @@ header{
 }
 
 .box p{
-  margin-bottom: 100px;
 }
 
 .box:hover{
@@ -72,10 +71,9 @@ header{
   width: 700px;
 }
 
-#blog-title{
-  font-family: 'Sawarabi Gothic', sans-serif;
-  font-size: 30px;
-  margin: 40px 40px 40px 0px;
+.date p{
+  font-size: 20px;
+  margin-bottom: 100px;
 }
 
 .text{
