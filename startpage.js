@@ -19,4 +19,4 @@ date2.innerHTML = "2021/12/24";
 
 blogtitle3.innerHTML = "";
 blogimg3.innerHTML = '<img src="" alt="">';
-date3.innerHTML = "2021/12/24";
+date3.innerHTML = "";
