@@ -45,6 +45,7 @@ header{
 
 .recent-list img{
   width: 700px;
+  border-radius: 10px
 }
 
 .recent-list p{
