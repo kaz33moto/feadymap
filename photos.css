@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+body{
+  color: #333333;
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+header{
+  margin-bottom: 50px;
+}
+
+.header-logo{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 80px;
+  margin: 30px 30px 30px 0px;
+  text-align: center;
+  font-style: italic;
+}
+
+.header-menu{
+  margin: 0 auto;
+  width: 450px;
+}
+
+.recent-title{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 70px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.box{
+  transition: all 0.3s;
+}
+
+.box p{
+}
+
+.box:hover{
+  opacity: 0.8;
+}
+
+.recent-list img{
+  width: 700px;
+  border-radius: 10px;
+}
+
+.recent-list p{
+  font-size: 40px;
+}
+
+.menu-list{
+  font-family: 'Ubuntu', sans-serif;
+  float: left;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 20px;
+  transition: all 0.3s;
+  font-style: italic;
+}
+
+.menu-list:hover{
+  opacity: 0.6
+}
+
+.main{
+  margin-top: 100px;
+  height: ;
+  overflow-x: scroll;
+}
+
+.photos{
+  display: flex;
+  height: 550px;
+}
+
+#sell{
+  width: 500px;
+}
+
+#sell img{
+  width: 500px;
+}
+
+#sell p{
+  font-size: 30px;
+  text-align: center;
+}
